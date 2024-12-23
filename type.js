@@ -32,7 +32,6 @@ const start = document.getElementById("start");
 const timecount = document.getElementById("timecount");
 const goal = document.getElementById("goal");
 const questionselect = document.getElementById("questionselect");
-const tatuya = document.getElementById("tatuya");
 
 
 
@@ -48,7 +47,7 @@ let flag = true;
 let AAA;
 
 
-tatuya.style.display="none";
+
 
 // 入力しながら判定を行う
 inputText.addEventListener('input', hantei);
@@ -98,7 +97,7 @@ function NextQuestionPrint() {
     console.log(question[AAA][questionCount]);
 
     if (AAA ==0 && questionCount == 4) {
-        tatuya.style.display ="block";
+        
     }
     // 終わりへの遷移
     if (questionCount == question[AAA].length) {
@@ -131,7 +130,7 @@ function reset() {
     start.textContent = "もう一度遊ぶ";
     i.value ="";
     questionCount = 0;
-    tatuya.style.display ="none";
+   
 }
 
 // リスタート
