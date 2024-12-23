@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="type.css">
+    <script src="type.js" defer></script>
+    <title>タイピングゲーム</title>
+</head>
+<body>
+    <div class="title">タイピングゲームです</div>
+    <div class="text-container"></div>
+    <h1 id="timecount" class="timecount">0</h1>
+    <!-- 問題部分 -->
+    <div class="question">
+        <img src="https://web.familyclub.jp/images/53/0d3/74cc88a0622dcc66eeda3cf3b1f48-01.jpg" id="tatuya" class="tatuya">
+        <span id="remaind">ここに問題文が出ます</span>
+        <div>
+            <select id ="questionselect">
+                <option value="0">芸能人</option>
+                <option value="1">果物</option>
+                <option value="2">食べ物</option>
+            </select>
+        </div>
+        <div>
+            <button id="start">!スタート!</button>
+        </div>
+    </div>
+    <!-- 解答欄 -->
+    <input type="text" class="text" id="inputText" value="" autocomplete="off">
+    <div id ="goal" class="goal" ></div>
+    <!-- <img src="https://web.familyclub.jp/images/53/0d3/74cc88a0622dcc66eeda3cf3b1f48-01.jpg" id="tatuya" class="tatuya"> -->
+</body>
+    
+</body>
+</html>

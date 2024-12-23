@@ -1,0 +1,107 @@
+/* reset.css を元に必要なリセットをカバー */
+body, h1, div, span, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* type.css */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #ff9a9e, #fad0c4); */
+    /* background: linear-gradient(135deg, #aaf5ff, #c9ebea); */
+    /* background-color: bisque; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color:black;
+    text-align: center;
+}
+
+.text-container {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color:black;
+    text-align: center;
+}
+
+.timecount {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #2e8f75;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+    margin: 20px 0;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 8px solid #d75365;
+}
+
+.question select, .question button {
+    font-size: 2rem;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #0883AF;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.question button:hover {
+    background: #0883AF;
+    color: #fff;
+}
+
+#remaind {
+    display: block;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text {
+    margin: 20px 0;
+    font-size: 2.4rem;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+    border: 3px solid #d75365;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text:focus {
+    border-color: #d75365;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#goal {
+    font-size: 3.0rem;
+    color: #333;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tatuya {
+    width: 1200px;
+    height: 675px;
+    text-align: center;
+}
